@@ -1,0 +1,40 @@
+{
+  "configurations": [
+    {
+      "name": "插入函数调用参数-version1",
+      "program": "${workspaceFolder}/exploer-parameters-insert/src/version1.js",
+      "request": "launch",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node"
+    },
+    {
+      "name": "插入函数调用参数-version2",
+      "program": "${workspaceFolder}/exploer-parameters-insert/src/version2.js",
+      "request": "launch",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node"
+    },
+    {
+      "name": "插入函数调用参数-version3",
+      "program": "${workspaceFolder}/exploer-parameters-insert/src/version3.js",
+      "request": "launch",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node"
+    },
+    {
+      "name": "函数插桩",
+      "program": "${workspaceFolder}/exploer-auto-track/src/index.js",
+      "request": "launch",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node"
+    }
+  ]
+}

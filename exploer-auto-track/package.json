@@ -1,0 +1,12 @@
+{
+  "name": "exploer-auto-track",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/helper-module-imports": "^7.21.4",
+    "@babel/helper-plugin-utils": "^7.20.2",
+    "@babel/parser": "^7.21.4"
+  }
+}
